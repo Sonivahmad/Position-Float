@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    background-color: rgb(6, 105, 105);
+}
+
+.logo h1 {
+    color: white;
+}
+
+nav>a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+nav a:hover {
+    color: white;
+    padding-bottom: 6px;
+    border-bottom: 2px solid red;
+}
+
+.login_signup a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.part_1{
+    background-color: rgb(207, 204, 204);
+    height: 350px;
+   text-align: center;
+   padding: 50px;
+}
+.part_1 h2{
+    word-spacing: 5px;
+}
+.part_1 h2>span{
+    font-size: 40PX;
+}
+.part_11,.part_12,.part_13{
+    border: 2px solid black;
+    width: 25%;
+    height: 275px;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.part_1 div div{
+    border: 3px solid rgb(101, 143, 143);
+    background-color: aqua;
+    border-radius: 7px;
+   width: 25%;
+   height: 80px;
+   margin-bottom: 5px;
+}
+.part_11{
+   margin-right: 150px;
+}
+.part_13 div, .part_12 div, .part_11 div{
+    margin:5px auto;
+}
+.part_1 div div p{
+    padding:30px 0 ;
+}
+.part_122{
+    float: left;
+}
+.part_112{
+    float: right;
+}
+.part_1 div>:nth-child(2){
+    background-color: orange;
+    border: 3px solid orangered;
+}
+
+
+
+
+
+.part_2{
+   height: 350px;
+   text-align: center;
+   padding: 50px;
+}
+.part_2 h2{
+    word-spacing: 5px;
+}
+.part_2 h2>span{
+    font-size: 40PX;
+}
+.part_21,.part_22,.part_23{
+    border: 2px solid black;
+    width: 25%;
+    height: 275px;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.part_2>div>div{
+    border: 3px solid rgb(101, 143, 143);
+    background-color: aqua;
+    border-radius: 7px;
+   width: 25%;
+   height: 80px;
+   margin-bottom: 5px;
+}
+.part_21{
+   margin-right: 150px;
+}
+.part_23>div,.part_22>div,.part_21>div{
+    margin:5px auto;
+}
+.part_2>div>div>p{
+    padding:30px 0 ;
+}
+.part_2>div>:nth-child(2){
+    background-color: orange;
+    border: 3px solid orangered;
+}
+.part_21{
+    position: relative;
+}
+.part_212{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.part_222{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+
+
+
+.flex{
+    text-align: center;
+    background-color:rgb(207, 204, 204) ;
+    padding: 50px;
+} 
+
+.flex>h2{
+    margin: 50px;
+    text-align: center;
+}
+
+.flex_1{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 2px solid red;
+    padding-bottom: 40px;
+}
+
+.flex_1 div{
+   border: 3px solid black;
+   padding: 50px;
+   margin-bottom: 10px;
+   border: 5px solid rgb(17, 190, 190);
+   background-color: aqua;
+   border-radius: 7px;
+}
+
+.flex_2{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+    border-bottom: 2px solid red;
+    padding: 50px 30px;
+}
+
+.flex_2 div{
+    border: 3px solid black;
+    padding: 25px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+   border: 5px solid rgb(17, 190, 190);
+   background-color: aqua;
+   border-radius: 10px;
+}
+
+.flex_3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border-bottom: 2px solid red;
+    padding: 80px 0 40px 0 ;
+}
+.item{
+    flex-grow: 1;
+    border: 3px solid rgb(101, 143, 143);
+    background-color: aqua;
+    border-radius: 7px; 
+    height: 120px;
+    margin-left: 5px;
+    text-align: center;
+}
+.item1{
+    margin-left: 0;
+}
+.item3{
+    flex-grow: 4;
+    border: 3px solid rgb(101, 143, 143);
+    background-color: aqua;
+    border-radius: 7px;
+    border-radius: 10px;
+}
+
+
+.flex_4{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 80px 0 40px 0 ;
+}
+.flex_4 div, .flex_5 div{
+    border: 3px solid rgb(59, 161, 161);
+    background-color: aqua;
+    border-radius: 7px; 
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+.flex_5{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 80px 0;
+}
+
+
+
+.bottom{
+    text-align: center;
+    background: rgb(59, 161, 161);
+}
+.bottom i{
+    margin: 20px 20px;
+}
